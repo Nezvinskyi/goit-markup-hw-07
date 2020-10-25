@@ -2,11 +2,14 @@ footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-}
 
-.footer-container {
-  display: flex;
-  justify-content: space-between;
+  address {
+    margin-top: 20px;
+
+    li:not(:last-child) {
+      margin-bottom: 9px;
+    }
+  }
 }
 
 .footer-contacts {
@@ -28,9 +31,6 @@ footer {
   color: #ffffff;
 }
 
-footer address {
-  margin-top: 20px;
-}
 .footer-contact-address {
   font-weight: 400;
   font-size: 14px;
@@ -44,8 +44,4 @@ footer address {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-
-footer address li:not(:last-child) {
-  margin-bottom: 9px;
 }

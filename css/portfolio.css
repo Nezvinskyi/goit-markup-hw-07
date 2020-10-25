@@ -61,6 +61,15 @@ img {
   padding-right: 15px;
 }
 
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -485,13 +494,12 @@ footer {
   padding-bottom: 60px;
 }
 
-.footer-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+footer address {
+  margin-top: 20px;
+}
+
+footer address li:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-contacts {
@@ -513,10 +521,6 @@ footer {
   color: #ffffff;
 }
 
-footer address {
-  margin-top: 20px;
-}
-
 .footer-contact-address {
   font-weight: 400;
   font-size: 14px;
@@ -531,10 +535,6 @@ footer address {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-
-footer address li:not(:last-child) {
-  margin-bottom: 9px;
 }
 
 .projects .container {
