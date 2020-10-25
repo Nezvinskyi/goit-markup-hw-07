@@ -193,7 +193,6 @@ header address li:not(:last-child) {
   transition-property: color;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
-  /* transition-delay: 250ms; */
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -215,7 +214,6 @@ header address li:not(:last-child) {
   transition-property: color, fill;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
-  /* transition-delay: 250ms; */
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -382,8 +380,7 @@ header address li:not(:last-child) {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-btn:hover,
-.close-btn:focus {
+.close-btn:hover, .close-btn:focus {
   fill: #2196f3;
   cursor: pointer;
 }
