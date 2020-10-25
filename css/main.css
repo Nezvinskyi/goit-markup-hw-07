@@ -839,8 +839,7 @@ textarea.form-input {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-link:hover,
-.client-link:focus {
+.client-link:hover, .client-link:focus {
   fill: #2196f3;
   border: 1px solid #2196f3;
 }
