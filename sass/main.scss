@@ -1,7 +1,10 @@
+// utils
 @import './utils/variables';
 @import './utils/visually-hidden';
+//base
 @import './base/common';
 @import './base/container';
+//components
 @import './components/logo';
 @import './components/section-title';
 @import './components/social-links';
@@ -13,6 +16,8 @@
 @import './components/modal-form';
 @import './components/checkbox';
 @import './components/form-btn';
+
+//layout
 @import './layout/features';
 @import './layout/whatwedo';
 @import './layout/team';
