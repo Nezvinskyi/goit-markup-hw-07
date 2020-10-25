@@ -1,44 +1,37 @@
 header {
   border-bottom: 1px solid #ececec;
 
-  & .container {
+  .navigation {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    background-color: #ffffff;
   }
-}
+  .logo {
+    margin-right: 92px;
+  }
 
-.navigation {
-  display: flex;
-  align-items: center;
+  address {
+    margin-left: auto;
+
+    ul {
+      display: flex;
+    }
+
+    li:not(:last-child) {
+      margin-right: 50px;
+    }
+  }
 }
 
 .navigation-list {
   display: flex;
-}
 
-header address ul {
-  display: flex;
-}
+  li:not(:last-child) {
+    margin-right: 50px;
+  }
 
-header .logo {
-  margin-right: 92px;
-}
-
-.navigation-list li:not(:last-child) {
-  margin-right: 50px;
-}
-header address {
-  margin-left: auto;
-}
-header address li:not(:last-child) {
-  margin-right: 50px;
-}
-
-.navigation-list-item {
-  position: relative;
+  &-item {
+    position: relative;
+  }
 }
 
 .header-nav-link {
@@ -51,6 +44,29 @@ header address li:not(:last-child) {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    fill: $accent-color;
+  }
+
+  &.current {
+    color: $accent-color;
+
+    &::after {
+      position: absolute;
+      bottom: -32px;
+      display: block;
+      content: '';
+
+      color: $accent-color;
+      background-color: $accent-color;
+      width: 100%;
+      height: 4px;
+      border-radius: 2px;
+    }
+  }
 }
 
 .header-contact-item {
@@ -66,35 +82,16 @@ header address li:not(:last-child) {
   transition-property: color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.header-contact-item:not(:last-child) {
-  margin-right: 50px;
-}
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 
-.header-nav-link:hover,
-.header-nav-link:focus,
-.header-contact-item:hover,
-.header-contact-item:focus {
-  color: $accent-color;
-  fill: $accent-color;
-}
-
-.header-nav-link.current {
-  color: $accent-color;
-}
-
-.header-nav-link.current::after {
-  position: absolute;
-  bottom: -32px;
-  display: block;
-  content: '';
-
-  color: $accent-color;
-  background-color: $accent-color;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    fill: $accent-color;
+  }
 }
 
 .icon-envelope {
