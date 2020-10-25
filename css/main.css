@@ -517,6 +517,12 @@ textarea.form-input {
   color: #757575;
 }
 
+.checkbox-label a {
+  color: #2196f3;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
 .checkbox-custom-box {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -526,20 +532,12 @@ textarea.form-input {
   background-image: url(../images/icon-check-off.svg);
   fill: #212121;
   background-size: contain;
-  /* background-position: center; */
   background-repeat: no-repeat;
   cursor: pointer;
 }
 
-.checkbox-text {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
 .checkbox-input:checked + .checkbox-custom-box {
   background-image: url(../images/icon-check-on.svg);
-  /* background-position: center; */
   background-size: contain;
   cursor: pointer;
   background-repeat: no-repeat;
@@ -552,10 +550,10 @@ textarea.form-input {
   border-radius: 4px;
 }
 
-.checkbox-label a {
-  color: #2196f3;
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
+.checkbox-text {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .form-btn {
