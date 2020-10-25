@@ -19,14 +19,14 @@
   color: #ffffff;
 
   cursor: pointer;
-}
 
-.submit-btn:after {
-  content: '';
-  margin-left: 9px;
-  width: 24px;
-  height: 24px;
-  background-image: url(../images/icon-send.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  &::after {
+    content: '';
+    margin-left: 9px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/icon-send.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }

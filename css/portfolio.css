@@ -246,7 +246,7 @@ img {
   cursor: pointer;
 }
 
-.submit-btn:after {
+.submit-btn::after {
   content: '';
   margin-left: 9px;
   width: 24px;
