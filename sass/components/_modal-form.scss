@@ -28,7 +28,7 @@
   font-size: 12px;
   line-height: 1.67;
   letter-spacing: 0.01em;
-  color: var(--add-text-color);
+  color: $add-text-color;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -52,7 +52,7 @@
 }
 
 .form-input:focus {
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accent-color;
 }
 
 .form-icon {
@@ -63,7 +63,7 @@
 }
 
 .form-input:focus + .form-icon {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 textarea.form-input {

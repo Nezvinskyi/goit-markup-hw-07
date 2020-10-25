@@ -32,7 +32,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--main-text-color);
+  color: $main-text-color;
 }
 .project-type {
   font-family: Roboto;
@@ -41,7 +41,7 @@
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  color: var(--add-text-color);
+  color: $add-text-color;
 }
 
 .project-thumb {

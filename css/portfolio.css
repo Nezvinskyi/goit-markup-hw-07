@@ -1,9 +1,3 @@
-:root {
-  --accent-color: #2196f3;
-  --main-text-color: #212121;
-  --add-text-color: #757575;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -19,7 +13,7 @@
 }
 
 body {
-  color: var(--main-text-color);
+  color: #212121;
   font-family: Roboto, sans-serif;
   font-style: normal;
 }
@@ -93,7 +87,7 @@ img {
   line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: #212121;
   background-color: #f5f4fa;
   border: transparent;
   -webkit-transition-property: color, background-color, -webkit-box-shadow;
@@ -109,7 +103,7 @@ img {
 .projects-button:hover,
 .projects-button:focus {
   color: #ffffff;
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -164,7 +158,7 @@ img {
 
 .social-item:hover,
 .social-item:focus {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   fill: #fff;
 }
 
@@ -224,7 +218,7 @@ img {
 }
 
 .footer-form-input:focus {
-  border: 1px solid var(--accent-color);
+  border: 1px solid #2196f3;
 }
 
 .submit-btn {
@@ -326,7 +320,7 @@ header address li:not(:last-child) {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  color: #212121;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 250ms;
@@ -347,8 +341,8 @@ header address li:not(:last-child) {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: var(--add-text-color);
-  fill: var(--add-text-color);
+  color: #757575;
+  fill: #757575;
   -webkit-transition-property: color, fill;
   transition-property: color, fill;
   -webkit-transition-duration: 250ms;
@@ -366,12 +360,12 @@ header address li:not(:last-child) {
 .header-nav-link:focus,
 .header-contact-item:hover,
 .header-contact-item:focus {
-  color: var(--accent-color);
-  fill: var(--accent-color);
+  color: #2196f3;
+  fill: #2196f3;
 }
 
 .header-nav-link.current {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .header-nav-link.current::after {
@@ -379,8 +373,8 @@ header address li:not(:last-child) {
   bottom: -32px;
   display: block;
   content: '';
-  color: var(--accent-color);
-  background-color: var(--accent-color);
+  color: #2196f3;
+  background-color: #2196f3;
   width: 100%;
   height: 4px;
   border-radius: 2px;
@@ -430,7 +424,7 @@ header address li:not(:last-child) {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--main-text-color);
+  color: #212121;
 }
 
 .project-type {
@@ -440,7 +434,7 @@ header address li:not(:last-child) {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  color: var(--add-text-color);
+  color: #757575;
 }
 
 .project-thumb {

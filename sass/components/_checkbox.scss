@@ -13,7 +13,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--add-text-color);
+  color: $add-text-color;
 }
 
 .checkbox-custom-box {
@@ -42,12 +42,12 @@
 
 .checkbox-input:focus + .checkbox-custom-box {
   box-sizing: content-box;
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accent-color;
   border-radius: 4px;
 }
 
 .checkbox-label a {
-  color: var(--accent-color);
+  color: $accent-color;
   text-decoration: underline;
   text-decoration-skip-ink: none;
 }

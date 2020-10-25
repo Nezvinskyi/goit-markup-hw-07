@@ -36,6 +36,6 @@
 
 .social-item:hover,
 .social-item:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   fill: #fff;
 }
