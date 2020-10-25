@@ -6,19 +6,19 @@
   position: relative;
   width: 370px;
   background: #ffffff;
-}
-.project-container:not(:nth-child(3n)) {
-  margin-right: 30px;
-}
 
-.project-container:not(:nth-child(n + 7)) {
-  margin-bottom: 30px;
-}
+  &:not(:nth-child(3n)) {
+    margin-right: 30px;
+  }
+  &:not(:nth-child(n + 7)) {
+    margin-bottom: 30px;
+  }
 
-.project-container:hover,
-.project-container:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 
 .project-card {
@@ -64,13 +64,13 @@
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.project-container-link:hover .overlay,
-.project-container-link:focus .overlay {
-  transform: translateY(-100%);
-  visibility: visible;
-  pointer-events: auto;
+  .project-container-link:hover &,
+  .project-container-link:focus & {
+    transform: translateY(-100%);
+    visibility: visible;
+    pointer-events: auto;
+  }
 }
 
 .project-description {
