@@ -15,22 +15,23 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-.hero-items {
-  display: flex;
-  height: 600px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
-.hero-title {
-  max-width: 700px;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.364;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
+  &-items {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-title {
+    max-width: 700px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
 }
