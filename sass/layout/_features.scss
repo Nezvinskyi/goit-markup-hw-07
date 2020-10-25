@@ -5,20 +5,20 @@
 .features-list {
   display: flex;
   justify-content: space-between;
-}
 
-.features-list-item {
-  width: 270px;
-}
+  &-item {
+    width: 270px;
 
-.features-list-item::before {
-  display: block;
-  content: '';
-  height: 120px;
-  background-color: #f5f4fa;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 4px;
+    &::before {
+      display: block;
+      content: '';
+      height: 120px;
+      background-color: #f5f4fa;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 4px;
+    }
+  }
 }
 
 .icon-anthena::before {
