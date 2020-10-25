@@ -49,6 +49,10 @@ img {
   padding-bottom: 94px;
 }
 
+.form * {
+  outline: none;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
