@@ -11,15 +11,6 @@
   margin-right: 10px;
 }
 
-.white-theme .social-item {
-  fill: #afb1b8;
-}
-
-.dark-theme .social-item {
-  fill: #fff;
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
 .social-item {
   display: flex;
   justify-content: center;
@@ -31,6 +22,15 @@
   transition-property: background-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  .white-theme & {
+    fill: #afb1b8;
+  }
+
+  .dark-theme & {
+    fill: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
 
   &:hover,
   &:focus {
