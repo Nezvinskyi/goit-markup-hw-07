@@ -117,13 +117,11 @@ img {
   transition-property: background-color, fill;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
-  /* transition-delay: 250ms; */
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-item:hover,
-.social-item:focus {
+.social-item:hover, .social-item:focus {
   background-color: #2196f3;
   fill: #fff;
 }
