@@ -99,6 +99,72 @@ header .container {
   margin-bottom: 50px;
 }
 
+.form-title {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.hero-title {
+  max-width: 700px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.features-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.whatwedo-title {
+  position: absolute;
+  bottom: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  width: 370px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.project-title {
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.footer-title {
+  padding-top: 12px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 .social-links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -298,17 +364,6 @@ header address li:not(:last-child) {
           align-items: center;
 }
 
-.hero-title {
-  max-width: 700px;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.364;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
 .hero-btn {
   font-weight: 700;
   font-size: 16px;
@@ -405,15 +460,6 @@ header address li:not(:last-child) {
   margin: 0 auto;
   padding: 40px 0;
   outline: none;
-}
-
-.form-title {
-  margin-bottom: 12px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .form-item {
@@ -729,16 +775,6 @@ textarea.form-input {
   background-image: url(../images/astronaut.svg);
 }
 
-.features-title {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
 .features-description {
   font-weight: 400;
   font-size: 14px;
@@ -758,22 +794,6 @@ textarea.form-input {
 
 .what-we-do-card {
   position: relative;
-}
-
-.whatwedo-title {
-  position: absolute;
-  bottom: 0;
-  padding-top: 27px;
-  padding-bottom: 27px;
-  width: 370px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-align: center;
-  color: #fff;
-  background-color: rgba(47, 48, 58, 0.8);
 }
 
 .section.team {
@@ -875,17 +895,6 @@ footer address li:not(:last-child) {
 
 .joinus {
   padding-right: 93px;
-}
-
-.footer-title {
-  padding-top: 12px;
-  margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
 }
 
 .footer-contact-address {
